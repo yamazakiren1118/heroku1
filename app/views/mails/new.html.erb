@@ -1,0 +1,7 @@
+<h1>Mails#new</h1>
+<p>Find me in app/views/mails/new.html.erb</p>
+<%= form_with model:@user do |form| %>
+  <%= form.text_field :name %>
+  <%= form.text_field :email %>
+  <%= form.submit %>
+<% end %>
